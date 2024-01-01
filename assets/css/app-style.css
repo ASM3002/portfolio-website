@@ -1,0 +1,49 @@
+
+:root {
+    --primary: #F4442E;
+    --accent: #BC5F04;
+    --alternate: #44C7FF;
+    --white: #ffffff; 
+    --neutral: #343434;
+    --light-neutral: #bbbbbb;
+
+}
+
+/*Header*/
+.app-item-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.app-title {
+    color: var(--primary);
+}
+
+.app-logo {
+    width: 350px;
+}
+
+/*Section*/
+
+.section-container {
+    margin-inline: 250px; 
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    line-height: 1rem;
+}
+
+.section-container h1 {
+    
+}
+.section-container h3 {}
+.section-container p {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1100px) {
+    section-container {
+        width: 15px;
+    }
+
+}
